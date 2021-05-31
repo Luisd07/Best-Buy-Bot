@@ -5,10 +5,11 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 
+
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 browser = wd.Chrome(PATH)
 itemLink = "https://www.bestbuy.com/site/hp-pavilion-x360-2-in-1-14-touch-screen-laptop-intel-core-i5-8gb-memory-512gb-ssd-32gb-intel-optane-warm-gold/6453186.p?skuId=6453186"
-#browser.get("https://www.bestbuy.com/site/nvidia-geforce-rtx-3060-ti-8gb-gddr6-pci-express-4-0-graphics-card-steel-and-black/6439402.p?skuId=6439402")
+gpuLink = "https://www.bestbuy.com/site/nvidia-geforce-rtx-3060-ti-8gb-gddr6-pci-express-4-0-graphics-card-steel-and-black/6439402.p?skuId=6439402"
 
 
 browser.get(itemLink)
